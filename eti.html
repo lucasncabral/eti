@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Prof. Dr. Antão Moura</title>
+
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
+
+    <!-- Leafet -->
+    <link
+      rel="stylesheet"
+      href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+    />
+
+    <!-- CSS for Demo Purpose, don't include it in your project -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top ">
+      <div class="container">
+        <div class="navbar-translate">
+          <button
+            class="navbar-toggler navbar-toggler-right navbar-burger"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="index.html"
+            ><strong>Antão</strong> Moura</a
+          >
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="cursor: pointer">
+              <a href="index.html" class="nav-link"
+                ><i class="nc-icon nc-shop"></i> Início</a
+              >
+            </li>
+
+            <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#pk"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><i class="nc-icon nc-book-bookmark" aria-hidden="true"></i
+                >Disciplinas</a
+              >
+              <ul class="dropdown-menu dropdown-menu-right dropdown-danger">
+                <li class="dropdown-header" href="#pk">Disciplinas</li>
+                <a class="dropdown-item" href="eti.html"
+                  >Economia de Tecnologia da Informação</a
+                >
+                <a class="dropdown-item" href="#pk"
+                  >Métodos e Software Numéricos</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#pk">Outros</a>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="main">
+        <div class="section section-buttons">
+          <div class="container">
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="tim-title"><h2>Economia de TI (ETI)</h2></div>
+            <!---->
+
+            <h3>
+              <span class="note"><strong>Ementa</strong></span>
+            </h3>
+
+            <div class="eti-ementa">
+              <p>
+                A “economia” de interesse em ETI. O embasamento teórico.
+                Definição e exploração de “valor” e seus componentes: tangíveis
+                e intangíveis. Pesos e unificação de componentes. Custos e Total
+                Cost of Ownership (TCO). Exercícios de valoração. Análise
+                financeira: Análise de custos e de risco. Análise de cenários.
+                Opções reais. Arcabouços e modelos para avaliação do impacto de
+                produtos e serviços em indivíduos e corporações. Preço e
+                precificação. Curva de demanda (Preço X Vendas). Tipos de
+                licenças de software. Aplicações de valoração e de precificação
+                na área de Tecnologias da Informação. O papel e a importância do
+                cliente na valoração. Qualidade de serviços de TI. Ilustrações.
+                Proteção à propriedade intelectual. Estudos de casos. Projeto.
+              </p>
+
+              <h4>
+                <span class="note"><strong>I - Objetivos</strong></span>
+              </h4>
+
+              Capacitar os participantes a fazerem avaliação de investimentos,
+              do retorno, do risco, de benefícios e dos impactos de projetos,
+              produtos e serviços de TI - do ponto de vista do fornecedor ou do
+              cliente. Discutir como definir valor, preço e modelos de negócio
+              de produtos e serviços de TI a partir desta avaliação. <br />
+              <br />
+
+              Em especial, buscar estruturadamente, respostas para questões do
+              tipo:
+              <ol>
+                <li>
+                  Como distribuir um orçamento entre novos projetos e serviços
+                  existentes?
+                </li>
+                <li>
+                  Como achar o valor de uma empresa, um certo bem ou uma
+                  inovação de TI?
+                </li>
+                <li>
+                  Como mapear o mercado-alvo e os principais concorrentes de um
+                  produto ou serviço?
+                </li>
+                <li>
+                  Quais serão o custo total e o preço final de meu produto ou
+                  serviço de TI?
+                </li>
+                <li>
+                  Como decidir fazer (ou não) um projeto ou comparar
+                  alternativas de projetos?
+                </li>
+                <li>
+                  Como tratar múltiplos critérios, às vezes conflitantes (p.ex.,
+                  qualidade X custo)?
+                </li>
+                <li>
+                  Como avaliar benefícios de um projeto para minha equipe,
+                  empresa e clientes?
+                </li>
+                <li>Como ligar valor a preço?</li>
+                <li>Quais argumentos posso usar para reforçar vendas?</li>
+                <li>
+                  Como proteger o valor de meu negócio de TI e fazê-lo
+                  progredir?
+                </li>
+              </ol>
+
+              <h4>
+                <span class="note"
+                  ><strong>II - Conteúdo Programático</strong></span
+                >
+              </h4>
+              <ul>
+                <li>
+                  Conceitos básicos. Economy X Economics e “transferência de
+                  riqueza (ou valor)”. TI como (seu) veículo para esta
+                  transferência (sua entrada ou “income”).
+                </li>
+
+                <li>Motivação, objetivos, programa e tarefas da disciplina.</li>
+                <ul>
+                  <li>Motivação: TI como seu diferencial,</li>
+
+                  <li>Objetivos: TI como base para sua “economia”,</li>
+
+                  <li>
+                    Programa: etapas para usar TI como base de sua economia
+                  </li>
+
+                  <li>
+                    Tarefas: praticando conceitos, noções e instrumentos do
+                    programa
+                  </li>
+                </ul>
+                <li>Fundamentação teórica de ETI.</li>
+
+                <ul>
+                  <li>Pressupostos ontológicos da economia.</li>
+
+                  <li>
+                    Introdução às teorias de escolha racional (“homo
+                    economicus”), das probabilidades e da utilidade.
+                  </li>
+
+                  <li>
+                    Álgebra de intervalos, análise de riscos, teoria da
+                    utilidade, opções reais.
+                  </li>
+
+                  <li>
+                    Breve visita aos conceitos de racionalidade limitada
+                    (“bounded rationality”), economia comportamental, escolha
+                    intertemporal, psicologia hedônica e ilusão de foco.
+                  </li>
+
+                  <li>
+                    Rápida apresentação de portfólio e gerencia de portfólio.
+                  </li>
+
+                  <li>
+                    Comentários e recomendações sobre bibliografia relacionada.
+                  </li>
+
+                  <li>
+                    Exemplos de aplicação à ETI das teorias e conceitos
+                    discutidos.
+                  </li>
+                </ul>
+                <li>
+                  Valor e a gerencia de valor. Conceitos de modelos e funções,
+                  mapeamento, valoração, tangíveis, intangíveis. Valor como uma
+                  combinação de tangíveis e intangíveis. Comparação de valores
+                  (juntando bananas com laranjas).
+                </li>
+
+                <li>
+                  Ferramentas para avaliação de critérios tangíveis. Total cost
+                  of (software) ownership. Análise financeira (retorno ROI,
+                  Valor Presente Líquido; Taxa Interna de Retorno; “Payback
+                  period”). Exemplos e estudos de casos.
+                </li>
+
+                <li>
+                  Arcabouços para estruturar a avaliação (inclusive) de
+                  critérios intangíveis. Uso de critérios intangíveis para
+                  reforço de argumentos de vendas (análise de impacto). Pirâmide
+                  de Maslow (cliente pessoa física). Balanced Score Card, Modelo
+                  de barreiras para a empresa e Modelo de 5 forças (cliente
+                  corporativo). Exemplos.
+                </li>
+
+                <li>Breve visita à análise de risco.</li>
+
+                <li>
+                  Introdução de conceitos: gestão de serviços de TI (IT Service
+                  Management). Portfolio e qualidade de serviços. “Service Level
+                  Agreements” (SLA).
+                </li>
+
+                <li>Aplicações e ilustrações: ligando valor a preço.</li>
+
+                <li>
+                  Preço X precificação. Tipos de licenças de software. Análise
+                  de vantagens e desvantagens dos principais tipos.
+                </li>
+
+                <li>
+                  Proteção à propriedade intelectual (IP): patentes e direito
+                  autoral, sigilo e &quot;Non-Disclosure Agreements&quot; (NDA),
+                  posse de recursos complementares, dianteira. Exemplos.
+                </li>
+
+                <li>
+                  Aplicações do conteúdo programático em projetos de interesse
+                  dos participantes.
+                </li>
+                <li></li>
+              </ul>
+
+              <h4>
+                <span class="note"><strong>III - Metodologia</strong></span>
+              </h4>
+              Aulas expositivas seguidas de discussão em sala sobre os conceitos
+              e ferramentas apresentados. Estudos de casos. Desenvolvimento de
+              projetos por grupos de alunos sobre tema escolhido por cada grupo
+              - tipicamente um exercício de valoração, precificação e comparação
+              com concorrentes de algum empreendimento, produto, serviço ou
+              “bem” (p.ex., conteúdo de um Banco de Dados) de TI. Avaliação
+              crítica e discussão reservada e/ou pública em sala de aula de cada
+              projeto para fixação de conceitos, sugestões de encaminhamentos ou
+              ajustes.
+
+              <h4>
+                <span class="note"><strong>IV - Avaliação</strong></span>
+              </h4>
+              Questões sobre material exposto e tarefas extra aulas. Avaliações
+              de apresentações de 3 versões do projeto de grupo, sendo a última,
+              o relatório final sobre o projeto. Cada versão tem peso 1/3 na
+              composição da média parcial., peso 40%.
+
+              <h4>
+                <span class="note"
+                  ><strong>V - Referências Bibliográficas</strong></span
+                >
+              </h4>
+              <br />
+              <h6><span class="note"> BIBLIOGRAFIA BÁSICA </span></h6>
+
+              <ul>
+                <li>
+                  What is &#39;consumer choice theory&#39;?, Economy.
+                  Retrieved Feb 3rd, 2018.
+                </li>
+
+                <li>
+                  Mullainathan, S.;  Thaler, R. H.  (2001). &quot;Behavioral
+                  Economics&quot;.  International Encyclopedia of the Social
+                  &amp; Behavioral Sciences . pp. 1094–1100.
+                </li>
+
+                <li>
+                  Hogarth, R. M.; Reder, M. W. (1987). “Rational Choice: The
+                  Contrast between Economics and Psychology”. University of
+                  Chicago Press. ISBN 0-226-34857-1.
+                </li>
+
+                <li>
+                  Kahneman, Daniel;  Tversky, Amos  (1979). “Prospect Theory: An
+                  Analysis of Decision under Risk&quot;. Econometrica. The
+                  Econometric Society. 47 (2): 263–91.
+                  doi:10.2307/1914185. JSTOR 1914185.
+                </li>
+
+                <li>
+                  Kahneman, Daniel; Ed Diener (2003). “Well-being: the
+                  foundations of hedonic psychology”. Russell Sage Foundation.
+                </li>
+
+                <li>
+                  J Neumann, O. von Morgenstern, “Theory of Games and Economic
+                  Behavior”. Commemorative Edition, Princeton University Press,
+                  2007.
+                </li>
+
+                <li>
+                  R.L. Keeney; H. Raiffa, “Decisions with Multiple Objectives:
+                  Preferences and Value Tradeoffs”, Cambridge University Press,
+                  1993.
+                </li>
+
+                <li>
+                  Harry Markowitz, “Portfolio Selection”, The Journal of
+                  Finance, Vol. 7, No. 1. (Mar., 1952), pp. 77-91.
+                </li>
+
+                <li>Trigeorgis, L., “Real Options”, MIT Press, 1996.</li>
+
+                <li>
+                  Edmund W. Fitzpatrick, “Planning and Implementing IT Portfolio
+                  Management”, IT Economics Corp.; 1st edition (July 2005), 256
+                  pages.
+                </li>
+
+                <li>
+                  George S. Day; Paul J.H. Schoemaker e Robert E. Gunther
+                  (Editors), “Wharton on Managing Emerging Technologies”,
+                  Capítulo 10 Managing Real Options e 12 - Scenario Planning for
+                  Disruptive Technologies, Schoemaker, Wiley, 2000, 460pp.
+                </li>
+
+                <li>
+                  Van Der Aalst, Wil MP. “Business process management: a
+                  comprehensive survey”. ISRN Software Engineering, v. 2013,
+                  2013.
+                </li>
+
+                <li>
+                  Mieritz, L. and Kirwin, B. “Defining Gartner Total Cost of
+                  Ownership”,
+                  https:// barsand.files.wordpress.com /2015/03/ gartner_tco.pdf,
+                  Accessed 05 julho 2017.
+                </li>
+
+                <li>
+                  Orozco, Jorge et al., “A framework of IS/business alignment
+                  management practices to improve the design of IT Governance
+                  architectures”. International Journal of Business and
+                  Management, v. 10, n. 4, p. 1, 2015.
+                </li>
+
+                <li>
+                  Lunardi, Guilherme Lerch et al., “The impact of adopting IT
+                  governance on financial performance: An empirical analysis
+                  among Brazilian firms”. International Journal of Accounting
+                  Information Systems, v. 15, n. 1, p. 66-81, 2014.
+                </li>
+
+                <li>
+                  BUSCH, Christoph., “Crowdsourcing Consumer Confidence: How to
+                  Regulate Online Rating and Review Systems”, the Collaborative
+                  Economy. 2016.
+                </li>
+
+                <li>
+                  R. Kaplan, D. Norton, &quot;The Balanced Scorecard: Measures
+                  that Drive Performance&quot;, Harvard Business Review, vol.
+                  70, no. 1, pp. 71-79, 1992.
+                </li>
+
+                <li>
+                  Moura, A.; Sauvé, J.; and, Boulmakoul, A., “A Possibility
+                  Theoretic Model for Decision Support in Business-Driven IT
+                  Service Portfolio Financial Management under Uncertainty”,
+                  Proceedings of Hewlett-Packard Software University Association
+                  (HP-SUA) 2008.
+                </li>
+              </ul>
+
+              <!---->
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="section section-dark section-nucleo-icons">
+          <div class="container"><div class="row"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section section-buttons">
+        <div class="container">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <img
+              src="assets/img/ufcg.png"
+              class="img-responsive"
+              style="width: 46px;"
+              alt="Rounded Image"
+            />
+
+            <a
+              style="color:#66615b; font-weight: bold;"
+              href="http:/computacao.ufcg.edu.br/"
+              >UFCG: Departamento de Sistemas e Computação ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Core JS Files -->
+  <script src="assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+  <script
+    src="assets/js/jquery-ui-1.12.1.custom.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="assets/js/popper.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!-- Switches -->
+  <script src="assets/js/bootstrap-switch.min.js"></script>
+
+  <!-- Plugins for Slider -->
+  <script src="assets/js/nouislider.js"></script>
+
+  <!-- Plugins for DateTimePicker -->
+  <script src="assets/js/moment.min.js"></script>
+  <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+  <!-- Paper Kit Initialization and functons -->
+  <script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
+</html>
